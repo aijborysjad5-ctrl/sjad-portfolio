@@ -15,27 +15,35 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "SJAD Studio | Creative Design & Digital Solutions",
   description:
-    "SJAD Studio creates modern visual identities, branding, web design and creative digital experiences.",
+    "Modern branding, web design and digital experiences by SJAD Studio.",
   keywords: [
     "SJAD Studio",
-    "Graphic Design",
-    "Brand Identity",
+    "Branding",
     "Web Design",
-    "Portfolio",
     "Creative Studio",
+    "Digital Solutions",
   ],
   authors: [{ name: "SJAD Studio" }],
+
   openGraph: {
     title: "SJAD Studio | Creative Design & Digital Solutions",
     description:
-      "Modern branding, design and digital experiences by SJAD Studio.",
+      "Modern branding, web design and digital experiences by SJAD Studio.",
     url: "https://sjad-portfolio.vercel.app",
     siteName: "SJAD Studio",
+    images: [
+      {
+        url: "/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "SJAD Studio",
+      },
+    ],
     locale: "en_US",
     type: "website",
   },
-
 };
+
 
 export default function RootLayout({
   children,
